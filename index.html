@@ -8,20 +8,23 @@
       content="Västsvenska Kaktus och Suckulentföreningen – http://www.kaktusar.se/">
 
 <style type="text/css">
+@font-face {
+  font-family: "Gochi Hand";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gochi Hand"), local("GochiHand-Regular"),
+       url("http://fonts.gstatic.com/s/gochihand/v8/hES06XlsOjtJsgCkx1Pkfon_-w.woff2")
+       format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 P {
     text-indent: 0em;
     text-align: justify;
     margin: 0.4em auto;
-    border-width: thin;
-    border-color: black;
-    border-style: none;
 }
 P.full {
     text-indent: inherit;
-    margin-top: 0.8em;
-}
-P+P {
-    text-indent: 1em;
+    margin-top: 1em;
 }
 BLOCKQUOTE {
     font-size: smaller;
@@ -31,6 +34,27 @@ BLOCKQUOTE {
 }
 UL, OL {
     margin-left: 0em;
+}
+H1, H2 {
+    font-family: "Gochi Hand", sans-serif;
+}
+H1 {
+    padding: 1ex;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1ex;
+    font-size: 48px;
+    color: white;
+    background-color: #b2a57c;
+}
+DIV.program {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1ex;
+    padding: 2em;
+    background-color: #e0d0b0;
 }
 </style>
 
